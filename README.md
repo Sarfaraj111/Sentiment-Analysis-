@@ -4,11 +4,6 @@
 
 This project is a **Sentiment Analysis system** built using **Natural Language Processing (NLP)** and **Machine Learning** techniques. The model analyzes textual data and predicts the sentiment expressed in the text.
 
-The sentiments are classified into categories such as:
-
-* Positive 😊
-* Negative 😞
-* Neutral 😐
 
 ## 🚀 Features
 
@@ -30,19 +25,8 @@ The sentiments are classified into categories such as:
 * NLTK
 * Matplotlib / Seaborn
 
-## 📂 Project Structure
 
-```text
-Sentiment-Analysis/
-│
-├── data/                  # Dataset used for training and testing
-├── notebooks/             # Jupyter notebooks
-├── models/                # Trained machine learning models
-├── src/                   # Source code
-│
-├── sentiment_analysis.py  # Main application file
-├── requirements.txt       # Required Python libraries
-└── README.md              # Project documentation
+`
 ```
 
 ## ⚙️ How It Works
@@ -80,61 +64,6 @@ Some commonly used algorithms include:
 
 ### 5. Sentiment Prediction
 
-The trained model predicts whether a given text expresses a **positive, negative, or neutral sentiment**.
-
-## 💻 Installation
-
-Clone this repository:
-
-```bash
-git clone https://github.com/your-username/sentiment-analysis.git
-```
-
-Navigate to the project directory:
-
-```bash
-cd sentiment-analysis
-```
-
-Install the required libraries:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the project:
-
-```bash
-python sentiment_analysis.py
-```
-
-## 📊 Example
-
-**Input:**
-
-```text
-I really enjoyed this product. The quality is amazing!
-```
-
-**Output:**
-
-```text
-Positive 😊
-```
-
----
-
-**Input:**
-
-```text
-The product quality was terrible and I am disappointed.
-```
-
-**Output:**
-
-```text
-Negative 😞
-```
 
 ## 📈 Model Evaluation
 
